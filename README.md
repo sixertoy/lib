@@ -1,1 +1,1 @@
-# Smile-lib
+# Smile-lib [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Travis](https://travis-ci.org/malas34/smile-lib.svg?branch=master)](https://travis-ci.org/malas34/smile-lib)
