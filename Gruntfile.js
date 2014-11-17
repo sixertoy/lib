@@ -17,6 +17,7 @@ module.exports = function (grunt) {
                 match: '.',
                 forceExit: false,
                 extensions: 'js',
+                keepRunner : true,
                 specNameMatcher: 'spec',
                 includeStackTrace: false,
                 jUnit: {

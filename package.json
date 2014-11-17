@@ -14,7 +14,7 @@
     "url": "https://github.com/malas34/smile-lib/issues"
   },
   "scripts": {
-    "test": "node jasmine tests/"
+    "test": "grunt tests --verbose"
   },
   "engines": {
     "node": ">= 0.10.0"
