@@ -1,6 +1,6 @@
 {
   "name": "smnolde",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Smile NodeJS Library",
   "author": "Matthieu Lassalvy",
   "license": "MIT",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-bump": "0.0.16",
     "grunt-contrib-jshint": "~0.7.2",
     "grunt-jasmine-node": "git://github.com/malas34/grunt-jasmine-node"
   },
