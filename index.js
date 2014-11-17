@@ -1,4 +1,4 @@
 /*global require, module */
 (function(){
-    module.exports = require('/lib/smile');
+    module.exports = require('./lib/smile');
 }());
