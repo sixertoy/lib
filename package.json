@@ -1,17 +1,17 @@
 {
-  "name": "smile-lib",
+  "name": "smnolde",
   "version": "0.1.0",
-  "description": "Smile NodeJS lib",
+  "description": "Smile NodeJS Library",
   "author": "Matthieu Lassalvy",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/malas34/smile-lib",
+  "homepage": "https://github.com/malas34/smnolde",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malas34/smile-lib"
+    "url": "https://github.com/malas34/smnolde"
   },
   "bugs": {
-    "url": "https://github.com/malas34/smile-lib/issues"
+    "url": "https://github.com/malas34/smnolde/issues"
   },
   "scripts": {
     "test": "grunt tests --verbose"
@@ -22,7 +22,6 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.7.2",
-    "smile-lib": "git://github.com/malas34/smile-lib",
     "grunt-jasmine-node": "git://github.com/malas34/grunt-jasmine-node"
   },
   "dependencies": {
