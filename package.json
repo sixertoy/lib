@@ -22,9 +22,9 @@
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-jshint": "~0.7.2",
+    "smile-lib": "git://github.com/malas34/smile-lib",
     "grunt-jasmine-node": "git://github.com/malas34/grunt-jasmine-node"
   },
   "dependencies": {
-    "smile-lib": "git://github.com/malas34/smile-lib"
   }
 }
