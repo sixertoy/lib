@@ -4,3 +4,9 @@ node_js:
   - "0.10"
 before_install:
   - npm install -g grunt-cli
+deploy:
+  provider: npm
+  email: "malas34.github@gmail.com"
+  api_key: "bWFsYXMzNDojaGVsbG8kd29ybGQj"
+  on:
+    branch: master
