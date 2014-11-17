@@ -7,7 +7,6 @@
     "immed": true,
     "undef": true,
     "maxparams": 3,
-    "nonbsp": true,
     "freeze": true,
     "forin": false,
     "curly": false,
