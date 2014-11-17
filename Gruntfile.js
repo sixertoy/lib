@@ -1,15 +1,32 @@
-/*global module:false*/
+/*global module */
 module.exports = function (grunt) {
+
+    'use strict';
 
     // Project configuration.
     grunt.initConfig({
         // Task configuration.
         jshint: {
-            jshint: '.jshintrc',
-            files: ['Grunfile.js', 'lib/**/*.js']
+            options: {
+                jshintrc: '.jshintrc'
+            },
+            all: ['Grunfile.js', 'lib/**/*.js']
         },
         jasmine_node: {
-
+            options: {
+                match: '.',
+                forceExit: false,
+                extensions: 'js',
+                specNameMatcher: 'test',
+                includeStackTrace: false,
+                jUnit: {
+                    report: true,
+                    savePath: './build/reports/jasmine/',
+                    useDotNotation: true,
+                    consolidate: true
+                }
+            },
+            all: ['tests/']
         }
     });
 
