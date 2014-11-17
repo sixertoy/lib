@@ -4,16 +4,14 @@
 
     'use strict';
 
-    var lib = require('smile-lib'),
-        smile = require('./../../lib/smile');
+    var smnolde = require('../../lib/smile');
 
     describe('smile', function () {
 
         describe('Exposed modules', function () {
 
             it('Should "smile.include" be a function', function () {
-                expect(lib.include).toEqual(jasmine.any(Function));
-                expect(smile.include).toEqual(jasmine.any(Function));
+                expect(smnolde.include).toEqual(jasmine.any(Function));
             });
 
         });
