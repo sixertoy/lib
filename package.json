@@ -1,8 +1,10 @@
 {
   "name": "smnolde",
-  "version": "0.1.5",
-  "description": "Smile NodeJS Library",
-  "author": "Matthieu Lassalvy",
+  "version": "0.1.4",
+  "description": "NodeJS Library",
+  "author": {
+    "name": "Matthieu Lassalvy"
+  },
   "license": "MIT",
   "main": "index.js",
   "homepage": "https://github.com/malas34/smnolde",
